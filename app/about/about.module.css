@@ -1,0 +1,6 @@
+.main {
+  display: grid;
+  gap: var(--body);
+  justify-items: center;
+  align-content: center;
+}
