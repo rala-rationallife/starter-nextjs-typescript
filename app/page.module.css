@@ -1,6 +1,12 @@
 .main {
   display: grid;
-  gap: var(--body);
-  justify-items: center;
-  align-content: center;
+  grid-template-columns: subgrid;
+
+  & > div {
+    grid-column: 2 / -2;
+    display: grid;
+    gap: var(--body);
+    justify-items: center;
+    align-content: center;
+  }
 }

@@ -4,9 +4,11 @@ import styles from "./about.module.css";
 export default function About() {
   return (
     <main className={styles.main}>
-      <h1>ABOUT</h1>
+      <div>
+        <h1>ABOUT</h1>
 
-      <Link href="/">Home</Link>
+        <Link href="/">Home</Link>
+      </div>
     </main>
   );
 }
